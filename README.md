@@ -32,6 +32,7 @@ Feel free to edit the user name at the top of the script while making sure that 
 	username='Zabbix'
 
 The message is sent using the form of an [attachment](https://api.slack.com/docs/attachments) and a link to the Zabbix Console can be specified:
+
 	# We might also want to put a link to the Zabbix Console
 	zabbix_url="https://ZABBIX_HOST:PORT/zabbix"
 	link="$zabbix_url/tr_status.php"	# For example, to the Triggers page
@@ -40,6 +41,7 @@ The result is the following:
 
 ![Zabbix example message attachment](message-attachment-example.png "Zabbix example message attachment")
 
+**Please, note** that the icon (aka the emoji) can be set in Slack's Webhook configuration page.
 
 ### At Slack.com
 
